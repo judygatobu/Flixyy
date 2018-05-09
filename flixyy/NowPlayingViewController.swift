@@ -61,7 +61,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String
         let overview = movie["overview"] as! String
-        cell.titleLabel.text = title
+        cell.TitleLabel.text = title
         cell.overViewLabel.text = overview
         
         let posterPathString = movie["poster_path"] as! String
